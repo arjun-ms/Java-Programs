@@ -33,7 +33,7 @@ class Officer extends Employee{
 	public void printSpec(){
 			System.out.println("Specialization: "+spec);
 	}
-	Officer(Sring name,int age,int phno,double salary,String address,String spec){
+	Officer(String name,int age,int phno,double salary,String address,String spec){
 		this.name = name;
 		this.age = age;
 		this.phno = phno;
@@ -51,7 +51,7 @@ class Manager extends Employee{
 	public void printDep(){
 		System.out.println("Department: "+dep);
 	}
-	Manager(Sring name,int age,int phno,double salary,String address,String dep){
+	Manager(String name,int age,int phno,double salary,String address,String dep){
 		this.name = name;
 		this.age = age;
 		this.phno = phno;
