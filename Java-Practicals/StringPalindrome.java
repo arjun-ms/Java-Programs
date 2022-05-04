@@ -20,6 +20,7 @@ public class StringPalindrome{
 		
 		for(i=0;i<len;i++){
 			if(str.charAt(i) != rev.charAt(i)){
+				System.out.println("working");
 				flag=false;
 			}
 		}
